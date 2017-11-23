@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Kingfisher (4.2.0)
+  - LLCycleScrollView (1.4.1):
+    - Kingfisher
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.15)
+  - SDWebImage (4.2.1):
+    - SDWebImage/Core (= 4.2.1)
+  - SDWebImage/Core (4.2.1)
+  - SlideMenuControllerSwift (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Kingfisher
+  - LLCycleScrollView
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage
+  - SlideMenuControllerSwift (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
+  LLCycleScrollView: 8b59b21b458e14125cf4047e870ae50b127adc60
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+
+PODFILE CHECKSUM: 852af951c5725a9c92ec3eb48f459b9cf6845006
+
+COCOAPODS: 1.2.0

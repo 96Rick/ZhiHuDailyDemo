@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KohinoorBangla.ttc">
+            <string>KohinoorBangla-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyThemeCell" rowHeight="88" id="KGk-i7-Jjw" customClass="ThemeDetailNewsTableView" customModule="ZhiHuDaily_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="427" height="87.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ErD-Da-8hT">
+                        <rect key="frame" x="316.5" y="5" width="105.5" height="77.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cq-yQ-yDL">
+                        <rect key="frame" x="0.0" y="10" width="276.5" height="77.5"/>
+                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ErD-Da-8hT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="1qe-Ds-x9F"/>
+                    <constraint firstAttribute="bottom" secondItem="ErD-Da-8hT" secondAttribute="bottom" constant="5" id="E4f-CN-Pt6"/>
+                    <constraint firstItem="ErD-Da-8hT" firstAttribute="leading" secondItem="0cq-yQ-yDL" secondAttribute="trailing" constant="30" id="NKs-LZ-0ck"/>
+                    <constraint firstItem="0cq-yQ-yDL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Snm-Sc-WVh"/>
+                    <constraint firstItem="0cq-yQ-yDL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="gkc-oO-Vi5"/>
+                    <constraint firstAttribute="bottom" secondItem="0cq-yQ-yDL" secondAttribute="bottom" constant="5" id="mbl-04-Spe"/>
+                    <constraint firstAttribute="trailing" secondItem="ErD-Da-8hT" secondAttribute="trailing" constant="5" id="pOD-C7-xWw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="ErD-Da-8hT" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="height" multiplier="6:5" id="ZI0-z7-OJV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="themeDetailImage" destination="ErD-Da-8hT" id="wep-IT-9Ib"/>
+                <outlet property="themeDetailLabel" destination="0cq-yQ-yDL" id="NVG-86-RMY"/>
+            </connections>
+            <point key="canvasLocation" x="53.5" y="66"/>
+        </tableViewCell>
+    </objects>
+</document>
