@@ -25,6 +25,7 @@
 		1D85A5FA1FAD76F4004C2DD6 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D85A5F91FAD76F4004C2DD6 /* NewsDetailViewController.swift */; };
 		1D85A6001FAD7B47004C2DD6 /* ThemeDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D85A5FF1FAD7B47004C2DD6 /* ThemeDataViewController.swift */; };
 		1D85A6051FAD8C78004C2DD6 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D85A6041FAD8C78004C2DD6 /* LeftViewController.swift */; };
+		1DD4282E1FC7172A0076E1D2 /* ZhiHuDaily_Demo-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E9D971FAD655E005BA927 /* ZhiHuDaily_Demo-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -299,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD4282E1FC7172A0076E1D2 /* ZhiHuDaily_Demo-Bridging-Header.h in Sources */,
 				1D4E9D951FAD536D005BA927 /* DataRequest.swift in Sources */,
 				1D4E9D6E1FACC983005BA927 /* ViewController.swift in Sources */,
 				1D4E9D6C1FACC983005BA927 /* AppDelegate.swift in Sources */,
@@ -447,18 +449,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FA3283266E5FC70D2020930 /* Pods-ZhiHuDaily_Demo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P858546MPG;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZhiHuDaily_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rick.ZhiHuDaily-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rick/Desktop/ZhiHuDaily_Demo/ZhiHuDaily_Demo/ZhiHuDaily_Demo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZhiHuDaily_Demo/ZhiHuDaily_Demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT) $(PODS_ROOT)/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT) $(SRCROOT)/**";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
@@ -466,18 +472,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B6A5E23BF33A9CFE519C955 /* Pods-ZhiHuDaily_Demo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P858546MPG;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ZhiHuDaily_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rick.ZhiHuDaily-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rick/Desktop/ZhiHuDaily_Demo/ZhiHuDaily_Demo/ZhiHuDaily_Demo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZhiHuDaily_Demo/ZhiHuDaily_Demo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT) $(PODS_ROOT)/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT) $(SRCROOT)/**";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
